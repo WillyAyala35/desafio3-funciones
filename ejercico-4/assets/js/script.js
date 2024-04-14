@@ -19,17 +19,40 @@ const elementodiv4 = document.getElementById("div4")
 const pintardiv4 = (element) => element.style.backgroundColor = 'black'
 elementodiv4.addEventListener("click", () => pintardiv4(elementodiv4))
 
-
+/* Div 5 */
 
 document.addEventListener('keydown', function (event) {
-    if (event.key === a) {
-    element.style.backgroundColor = 'pink'
-    } else if (event.key === 's') {
-        element.style.backgroundColor = 'orange'
-    } 
+    elementodiv5 = document.getElementById("key")
+    if (event.key === 'a') {elementodiv5.style.backgroundColor = 'pink'}
+    else if (event.key === 's') {elementodiv5.style.backgroundColor = 'orange'} 
+    else if (event.key === 'd') {elementodiv5.style.backgroundColor = 'skyblue'} 
 })
 
-elementodiv5 = document.getElementById("key");
+
+/* Div 6 */
+
+document.addEventListener('keydown', function (event) {
+    elementodiv6 = document.getElementById("div6")
+    if (event.key === 'q') {
+        elementodiv6.style.backgroundColor = 'purple'
+        elementodiv6.style.width = '200px'
+        elementodiv6.style.height = '200px'
+    }
+    else if (event.key === 'w') {
+        elementodiv6.style.backgroundColor = 'gray'
+        elementodiv6.style.width = '200px'
+        elementodiv6.style.height = '200px'
+    }
+    else if (event.key === 'e') {
+        elementodiv6.style.backgroundColor = '#804000'
+        elementodiv6.style.width = '200px'
+        elementodiv6.style.height = '200px'
+    }
+})
+
+
+
+
 
 
 
