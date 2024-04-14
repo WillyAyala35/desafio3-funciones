@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+#div1 {
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+
+#div2 {
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+
+#div3 {
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+#div4 {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+}
+
+#key {
+    margin: auto auto;
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 2px solid black;
+}
